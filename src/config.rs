@@ -98,10 +98,10 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["rs-ny.rustdesk.cn"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["rs-ny.rustdesk.con"];
 pub const RS_PUB_KEY: &str = "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
 
-pub const RENDEZVOUS_PORT: i32 = 61116;
+pub const RENDEZVOUS_PORT: i32 = 31116;
 pub const RELAY_PORT: i32 = 61117;
 
 macro_rules! serde_field_string {
